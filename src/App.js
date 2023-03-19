@@ -3,10 +3,10 @@ import SearchIcon from './search.svg'
 import MovieCard from './MovieCard';
 import './APP.css'
 
-// const tmdbApiKey = process.env.API_KEY;
-// const API_URL = `http://www.omdbapi.com?apikey=${tmdbApiKey}`
+const tmdbApiKey = process.env.REACT_APP_API_KEY;
+const API_URL = `http://www.omdbapi.com?apikey=${tmdbApiKey}`
 // console.log(tmdbApiKey);
-const API_URL = `http://www.omdbapi.com?apikey=8362eec8`
+// const API_URL = `http://www.omdbapi.com?apikey=8362eec8`
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
