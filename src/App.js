@@ -4,7 +4,7 @@ import MovieCard from './MovieCard';
 import './APP.css'
 
 const tmdbApiKey = process.env.REACT_APP_API_KEY;
-const API_URL = `http://www.omdbapi.com?apikey=${tmdbApiKey}`
+const API_URL = `https://www.omdbapi.com?apikey=${tmdbApiKey}`
 // console.log(tmdbApiKey);
 // const API_URL = `http://www.omdbapi.com?apikey=8362eec8`
 
